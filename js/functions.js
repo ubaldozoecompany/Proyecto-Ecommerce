@@ -130,7 +130,7 @@ const showHTML = () => {
 					</div>
 					<span class="precio-producto-carrito">${product.price}</span>
 				</div>
-				<img src="img/icons/eliminar.png" class="icon-close">
+				<img src="img/icons/eliminar.png" class="icon-close" alt="iconClose">
 			</div>
         `;
 		rowProduct.append(containerProduct);

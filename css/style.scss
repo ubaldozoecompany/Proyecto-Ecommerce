@@ -93,18 +93,8 @@ header {
         list-style-type: none;
         text-decoration: none;
         gap: 1rem;
-
         line-height: 1.9;    
-        .loggin {
-            background-color: $colorBlack;
-            color: $colorWhite;
-            width: $width;
-            border: none;
-            //background: none;
-            cursor: pointer;
-            padding: 15px 10px;
-            @include select;
-        }
+        @include select;  
     }    
 
 /* ------------LOGO------------ */    
@@ -188,6 +178,7 @@ header {
         font-size: 16px;
         margin: 0 5px;
         border-radius: 3px;
+        @include select;
     }
     .carrito .carrito-item .selector-cantidad{
         display: inline-block;
@@ -219,6 +210,7 @@ header {
     .icon-close{
         width: 25px;
         height: 25px;
+        @include select;
     }
     .icon-close:hover{
         stroke: hsl(0, 100%, 50%);
@@ -231,7 +223,7 @@ header {
         padding: 0;
         gap: 20px;
     }
-    .cart-total h2{
+    .cart-total h1{
         font-size: 29px;
         font-weight: 700;
     }
@@ -289,7 +281,7 @@ header {
     margin: 10px auto;
     padding: 10px;
     width: 90%;
-    h2 {
+    h1 {
         margin: 16px;
         cursor: pointer;
         transition: all .2s ease;

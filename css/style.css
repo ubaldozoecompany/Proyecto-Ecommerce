@@ -65,18 +65,10 @@ header .nav li a {
   text-decoration: none;
   gap: 1rem;
   line-height: 1.9;
-}
-header .nav li a .loggin {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-  width: 100%;
-  border: none;
-  cursor: pointer;
-  padding: 15px 10px;
   cursor: pointer;
   transition: all 0.2s ease;
 }
-header .nav li a .loggin:hover {
+header .nav li a:hover {
   transform: scale(1.09);
 }
 header img.logo {
@@ -157,6 +149,11 @@ header .selector-cantidad button {
   font-size: 16px;
   margin: 0 5px;
   border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+header .selector-cantidad button:hover {
+  transform: scale(1.09);
 }
 header .carrito .carrito-item .selector-cantidad {
   display: inline-block;
@@ -188,6 +185,11 @@ header .cantidad-producto-carrito {
 header .icon-close {
   width: 25px;
   height: 25px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+header .icon-close:hover {
+  transform: scale(1.09);
 }
 header .icon-close:hover {
   stroke: hsl(0, 100%, 50%);
@@ -200,7 +202,7 @@ header .cart-total {
   padding: 0;
   gap: 20px;
 }
-header .cart-total h2 {
+header .cart-total h1 {
   font-size: 29px;
   font-weight: 700;
 }
@@ -264,12 +266,12 @@ header .hidden {
   padding: 10px;
   width: 90%;
 }
-.offers h2 {
+.offers h1 {
   margin: 16px;
   cursor: pointer;
   transition: all 0.2s ease;
 }
-.offers h2:hover {
+.offers h1:hover {
   transform: scale(2);
   color: hsl(120, 100%, 25%);
 }
